@@ -1,3 +1,5 @@
+import { CTAButton } from "./CTAButton";
+
 export const NutritionStatsSection = () => {
   const stats = [
     {
@@ -47,6 +49,8 @@ export const NutritionStatsSection = () => {
               </div>
             ))}
           </div>
+
+          <CTAButton text="Give your furry friend the gift of wholesome nutrition" />
         </div>
         <div className="flex flex-[0.5]  px-4 lg:px-0">
           <img

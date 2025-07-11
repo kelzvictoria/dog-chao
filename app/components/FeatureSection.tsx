@@ -85,7 +85,10 @@ export const FeatureSection = () => {
           </div>
         </div>
 
-        <CTAButton text="Get your dog’s healthy meal today!" />
+        <div className="max-w-xl mx-auto">
+          <CTAButton text="Get your dog’s healthy meal today!" />
+        </div>
+
         <div className="text-sm text-gray-500 mt-2 flex flex-col sm:flex-row justify-center items-center">
           <div className="flex items-center">
             <img src="/shield-check.png" className="h-4 w-4 mr-2" /> 30-day
