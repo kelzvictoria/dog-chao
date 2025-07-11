@@ -13,3 +13,11 @@ body {
     color-scheme: dark;
   }
 }
+
+.section-title {
+  @apply text-xl lg:text-[32px] font-semibold text-gray-800;
+}
+
+.paragraph {
+  @apply text-sm sm:text-[14px] lg:text-[16px] text-[#424153];
+}
